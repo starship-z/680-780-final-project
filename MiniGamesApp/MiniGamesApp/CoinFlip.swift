@@ -54,10 +54,10 @@ struct Coin : View {
         ZStack{
             Circle()
                 .foregroundColor(isHeads ? .gray : .orange)
-                .frame(width: 100, height: 100)
+                .frame(width: 110, height: 110)
             Circle()
                 .foregroundColor(isHeads ? .green : .yellow)
-                .frame(width: 90, height: 90)
+                .frame(width: 100, height: 100)
         }
     }
 }

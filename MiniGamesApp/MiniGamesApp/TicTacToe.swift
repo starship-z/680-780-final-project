@@ -26,6 +26,7 @@ class TicTacToeModel : ObservableObject{
     }
     
     func resetGame(){
+        // set each square to .empty to clear
         for i in 0...8{
             squares[i].squareStatus = .empty
         }
@@ -33,6 +34,7 @@ class TicTacToeModel : ObservableObject{
     
     var gameOver : (SquareStatus, Bool){
         get {
+            
             if isWinner != .empty{
                 return (isWinner, true)
             }else{

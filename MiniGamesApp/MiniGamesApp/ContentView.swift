@@ -1,8 +1,5 @@
 import SwiftUI
-//// TEST
-///test
-///test
-///test
+
 struct TicTacToe: View {
     var body: some View {
         NavigationView {
@@ -21,11 +18,11 @@ struct RockPaperScissors: View {
     }
 }
 
-struct ConnectFour: View {
+struct CoinFlip: View {
     var body: some View {
         NavigationView {
-            ConnectFourView()
-            .navigationTitle("connect 4")
+            CoinFlipView()
+            .navigationTitle("coin flipper")
         }
     }
 }
@@ -83,7 +80,7 @@ struct HomeView: View {
                     
                     HStack {
                         VStack {
-                            NavigationLink(destination: ConnectFour(), label: {
+                            NavigationLink(destination: CoinFlip(), label: {
                         
                         VStack{
                             Color.green
@@ -92,7 +89,7 @@ struct HomeView: View {
                         .cornerRadius(20)
                         })
                             
-                        Text("Connect 4")
+                        Text("Coin Flipper")
                                 .foregroundColor(.black)
                                 .fontWeight(.black)
                         }

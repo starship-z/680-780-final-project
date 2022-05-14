@@ -13,7 +13,7 @@
 		A369609A282F06D80044FAED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3696099282F06D80044FAED /* Preview Assets.xcassets */; };
 		A36960A1282F07A50044FAED /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36960A0282F07A50044FAED /* TicTacToe.swift */; };
 		A36960A3282F092F0044FAED /* RockPaperScissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36960A2282F092F0044FAED /* RockPaperScissors.swift */; };
-		A36960A5282F09B80044FAED /* ConnectFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36960A4282F09B80044FAED /* ConnectFour.swift */; };
+		A36960A5282F09B80044FAED /* CoinFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36960A4282F09B80044FAED /* CoinFlip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		A3696099282F06D80044FAED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A36960A0282F07A50044FAED /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
 		A36960A2282F092F0044FAED /* RockPaperScissors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissors.swift; sourceTree = "<group>"; };
-		A36960A4282F09B80044FAED /* ConnectFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFour.swift; sourceTree = "<group>"; };
+		A36960A4282F09B80044FAED /* CoinFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				A3696094282F06D60044FAED /* ContentView.swift */,
 				A36960A2282F092F0044FAED /* RockPaperScissors.swift */,
 				A36960A0282F07A50044FAED /* TicTacToe.swift */,
-				A36960A4282F09B80044FAED /* ConnectFour.swift */,
+				A36960A4282F09B80044FAED /* CoinFlip.swift */,
 				A3696096282F06D80044FAED /* Assets.xcassets */,
 				A3696098282F06D80044FAED /* Preview Content */,
 			);
@@ -150,7 +150,7 @@
 				A36960A1282F07A50044FAED /* TicTacToe.swift in Sources */,
 				A36960A3282F092F0044FAED /* RockPaperScissors.swift in Sources */,
 				A3696093282F06D60044FAED /* MiniGamesApp.swift in Sources */,
-				A36960A5282F09B80044FAED /* ConnectFour.swift in Sources */,
+				A36960A5282F09B80044FAED /* CoinFlip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

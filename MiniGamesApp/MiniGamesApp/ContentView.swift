@@ -4,7 +4,7 @@ struct TicTacToe: View {
     var body: some View {
         NavigationView {
             TicTacToeView()
-            .navigationTitle("tic tac toe")
+            .navigationTitle("Tic Tac Toe")
         }
     }
 }
@@ -13,7 +13,7 @@ struct RockPaperScissors: View {
     var body: some View {
         NavigationView {
             RockPaperScissorsView()
-            .navigationTitle("rock paper scissors")
+            .navigationTitle("Rock Paper Scissors")
         }
     }
 }

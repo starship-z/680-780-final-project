@@ -43,9 +43,6 @@ struct HomeView: View {
                     HStack {
                         VStack {
                             NavigationLink(destination: TicTacToe(), label: {
-                                
-                                    
-                                    
                                     VStack{
                                         Color.blue
                                     }
@@ -110,7 +107,6 @@ struct ContentView: View {
                     Image(systemName: "house")
                     Text("Home")
                 }
-            
         }
     }
 }

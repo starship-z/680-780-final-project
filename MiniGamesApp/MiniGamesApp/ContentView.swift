@@ -22,7 +22,7 @@ struct CoinFlip: View {
     var body: some View {
         NavigationView {
             CoinFlipView()
-            .navigationTitle("coin flipper")
+            .navigationTitle("Coin Flipper")
         }
     }
 }
